@@ -18,6 +18,6 @@ musica3.nome = 'Training season'
 musica3.artista = 'Dua Lipa'
 musica3.duracao = '3:29'
 
-print(vars(musica1))
-print(vars(musica2))
-print(vars(musica3))
+print(f'Música: {musica1.nome} - Cantor: {musica1.artista} - {musica1.duracao} segundos')
+print(f'Música: {musica2.nome} - Banda: {musica2.artista} - {musica2.duracao} segundos')
+print(f'Música: {musica3.nome} - Cantora: {musica3.artista} - {musica3.duracao} segundos')
